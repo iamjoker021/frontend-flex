@@ -25,7 +25,7 @@ a {
     text-decoration: none;
 }
 
-.header-container {
+.header-container, footer {
     background-color: #1f2937;
     color: #e5e7eb;
     font-size: 18px;
@@ -104,6 +104,13 @@ button {
 .quote .author {
     text-align: right;
     font-weight: 800;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
 }
 
 /* Flex the Headers */
