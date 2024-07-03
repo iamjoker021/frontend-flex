@@ -63,19 +63,24 @@ button {
     font-weight: 900;
 }
 
-/* Flex the Headers */
-header ul {
-    display: flex;
-    gap: 24px;
+.call-to-action-container {
+    padding-top: 64px;
+    padding-bottom: 64px;
 }
 
-.logo {
-    flex: 1;
+.call-to-action {
+    background-color: #3882f6;
+    border-radius: 16px;
+    padding: 32px 64px;
+    color: #e5e7eb;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
+.call-to-action button {
+    border: 1px solid #e5e7eb;
+}
+
+.call-to-action h3 {
+    font-weight: 900;
 }
 
 .information h1 {
@@ -99,6 +104,21 @@ img {
 .quote .author {
     text-align: right;
     font-weight: 800;
+}
+
+/* Flex the Headers */
+header ul {
+    display: flex;
+    gap: 24px;
+}
+
+.logo {
+    flex: 1;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 /* Felx top-container */
@@ -126,4 +146,11 @@ img {
 
 .card {
     flex: 1 1 0;
+}
+
+/* Flex call to action */
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
