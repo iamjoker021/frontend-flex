@@ -31,6 +31,10 @@ a {
     font-size: 18px;
 }
 
+.header-container h1 {
+    font-size: 48px;
+}
+
 header li a {
     color: inherit;
 }
@@ -53,6 +57,12 @@ button {
     font-size: unset;
 }
 
+.information h1 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 900;
+}
+
 /* Flex the Headers */
 header ul {
     display: flex;
@@ -68,6 +78,11 @@ img {
     height: auto;
 }
 
+.information h1 {
+    font-size: 36px;
+    margin: 32px 0;
+}
+
 /* Felx top-container */
 .top-container {
     display: flex;
@@ -81,4 +96,16 @@ img {
 
 .top-container.image {
     flex:1 1 0;
+}
+
+/* Flex cards */
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 64px;
+}
+
+.card {
+    flex: 1 1 0;
 }
