@@ -1,4 +1,6 @@
-/* Style Color, Typography, Background */
+/**** Style Color, Typography, Background ****/
+
+/* Intialize */
 * {
     margin: 0;
     padding: 0;
@@ -30,10 +32,19 @@ a {
     text-decoration: none;
 }
 
+/* Style Background, colot, font for Header and Footer */
+
 .header-container, footer {
     background-color: #1f2937;
     color: #e5e7eb;
     font-size: 18px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
 }
 
 .header-container h1 {
@@ -53,6 +64,8 @@ header li a {
     font-weight: bold;
 }
 
+/* Style Button */
+
 button {
     background-color: #3882f6;
     padding: 8px 32px;
@@ -62,11 +75,16 @@ button {
     font-size: unset;
 }
 
+/* Information Layout */
+
 .information h1 {
     font-size: 36px;
     text-align: center;
     font-weight: 900;
+    margin: 32px 0;
 }
+
+/* Call to Action Layout */
 
 .call-to-action-container {
     padding-top: 64px;
@@ -88,10 +106,7 @@ button {
     font-weight: 900;
 }
 
-.information h1 {
-    font-size: 36px;
-    margin: 32px 0;
-}
+/* Quote Layout */
 
 .quote {
     background-color: #e5e7eb;
@@ -111,12 +126,7 @@ button {
     font-weight: 800;
 }
 
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 64px;
-}
+/**** Flex Codes ****/
 
 /* Flex the Headers */
 header ul {
