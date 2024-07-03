@@ -8,6 +8,10 @@ body {
     font-family: monospace;
 }
 
+.padding {
+    padding: 0 100px;
+}
+
 li {
     list-style: none;
     margin-top: 10px;
@@ -21,7 +25,6 @@ a {
     background-color: #1f2937;
     color: #e5e7eb;
     font-size: 18px;
-    padding: 0 100px;
 }
 
 header li a {
