@@ -83,6 +83,24 @@ img {
     margin: 32px 0;
 }
 
+.quote {
+    background-color: #e5e7eb;
+    padding-top: 64px;
+    padding-bottom: 48px;
+}
+
+.quote blockquote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote .author {
+    text-align: right;
+    font-weight: 800;
+}
+
 /* Felx top-container */
 .top-container {
     display: flex;
