@@ -1,32 +1,49 @@
-/* Style the List and Anchor */
+/* Style Color, Typography, Background */
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: monospace;
 }
 
-ul {
-    padding-left: 0;
-}
 li {
     list-style: none;
+    margin-top: 10px;
 }
 
 a {
     text-decoration: none;
 }
 
-header {
+.header-container {
     background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 0 100px;
 }
 
 header li a {
-    font-size: 18px;
-    color: #e5e7eb;
+    color: inherit;
+}
+
+.hero {
+    color: #f9fafb;
 }
 
 .logo a {
     font-size: 24px;
-    color: #f9fafb;
     font-weight: bold;
+}
+
+button {
+    background-color: #3882f6;
+    padding: 8px 16px;
+    border-radius: 5px;
+    color: #e5e7eb;
+    font-size: unset;
+    margin-top: 16px;
 }
 
 /* Flex the Headers */
@@ -37,4 +54,24 @@ header ul {
 
 .logo {
     flex: 1;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Felx top-container */
+.top-container {
+    display: flex;
+    padding: 80px 0;
+    gap: 18px;
+}
+
+.top-container.content {
+    flex:2 1 0;
+}
+
+.top-container.image {
+    flex:1 1 0;
 }
